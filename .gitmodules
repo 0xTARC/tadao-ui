@@ -1,0 +1,6 @@
+[submodule "zodiac-module-exit"]
+	path = zodiac-module-exit
+	url = git@github.com:gnosis/zodiac-module-exit.git
+[submodule "zodiac"]
+	path = zodiac
+	url = git@github.com:gnosis/zodiac.git
