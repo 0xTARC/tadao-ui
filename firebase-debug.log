@@ -1,0 +1,29 @@
+[debug] [2022-06-17T17:34:03.519Z] ----------------------------------------------------------------------
+[debug] [2022-06-17T17:34:03.521Z] Command:       /home/lewys/.asdf/installs/nodejs/14.17.6/bin/node /home/lewys/.asdf/installs/nodejs/14.17.6/.npm/bin/firebase serve
+[debug] [2022-06-17T17:34:03.521Z] CLI Version:   10.3.0
+[debug] [2022-06-17T17:34:03.522Z] Platform:      linux
+[debug] [2022-06-17T17:34:03.522Z] Node Version:  v14.17.6
+[debug] [2022-06-17T17:34:03.522Z] Time:          Fri Jun 17 2022 12:34:03 GMT-0500 (Colombia Standard Time)
+[debug] [2022-06-17T17:34:03.522Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-17T17:34:03.571Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-17T17:34:03.572Z] > authorizing via signed-in user (whoislewys@gmail.com)
+[debug] [2022-06-17T17:34:03.572Z] [iam] checking project tadao-pls for permissions ["firebase.projects.get"]
+[debug] [2022-06-17T17:34:03.573Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/tadao-pls:testIamPermissions [none]
+[debug] [2022-06-17T17:34:03.574Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tadao-pls:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-06-17T17:34:03.934Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/tadao-pls:testIamPermissions 200
+[debug] [2022-06-17T17:34:03.935Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tadao-pls:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-06-17T17:34:03.939Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tadao-pls [none]
+[debug] [2022-06-17T17:34:04.168Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tadao-pls 200
+[debug] [2022-06-17T17:34:04.169Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tadao-pls {"projectId":"tadao-pls","projectNumber":"294021675137","displayName":"tadao-pls","name":"projects/tadao-pls","resources":{"hostingSite":"tadao-pls"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from '/home/lewys/dev/crypto/tadao/fe'...
+[info] 
+[debug] [2022-06-17T17:34:04.175Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/tadao-pls/sites 
+[debug] [2022-06-17T17:34:04.908Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/tadao-pls/sites 200
+[debug] [2022-06-17T17:34:04.909Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/tadao-pls/sites {"sites":[{"name":"projects/tadao-pls/sites/tadao-pls","defaultUrl":"https://tadao-pls.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-06-17T17:34:04.910Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tadao-pls/webApps/-/config [none]
+[debug] [2022-06-17T17:34:05.519Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tadao-pls/webApps/-/config 200
+[debug] [2022-06-17T17:34:05.519Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tadao-pls/webApps/-/config {"projectId":"tadao-pls","storageBucket":"tadao-pls.appspot.com","apiKey":"AIzaSyCtqv-g0Uc_5fGyHYwtJe0HucWj1ppsDv8","authDomain":"tadao-pls.firebaseapp.com","messagingSenderId":"294021675137"}
+[info] i  hosting: Serving hosting files from: build/ {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild/\u001b[22m"}}
+[info] ✔  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
