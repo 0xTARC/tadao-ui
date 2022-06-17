@@ -1,5 +1,27 @@
 {
-  "name": "tadao-exit-module",
-  "iconPath": "./assets/Watermelon_Outline.svg",
-  "description": "yo mamma"
+  "short_name": "Safe App",
+  "name": "Gnosis Safe App Starter",
+  "description": "Describe your Safe App here",
+  "iconPath": "logo.svg",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "./assets/Watermelon_Outline.svg",
+      "type": "image/svg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./assets/Watermelon_Outline.svg",
+      "type": "image/svg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
 }
