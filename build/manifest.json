@@ -1,6 +1,6 @@
 {
-  "short_name": "Zodiac Exit App",
-  "name": "Zodiac Exit App",
+  "short_name": "TaDAO Zodiac Exit App",
+  "name": "TaDAO Zodiac Exit App",
   "description": "Redeem a designated token for a proportional share of a Safe's assets",
   "iconPath": "exit-module-logo.png",
   "icons": [
