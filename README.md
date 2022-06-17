@@ -75,3 +75,4 @@ if manager has multiple wallets, extension lets you switch your active smart wal
   * If abilities are kept track of in the proxy contract, each permission added will be an additional gas cost
   * Can we encourage managers to batch these?
 
+
